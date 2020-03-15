@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Final result
+
+<center>
+  <img src="./src/assets/final-result.jpeg">
+  <hr>
+  <img src="./src/assets/final-result2.png" width="100%">
+</center>
