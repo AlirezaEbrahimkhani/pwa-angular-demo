@@ -14,7 +14,8 @@
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -23,6 +24,18 @@
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "apis",
+      "urls": ["https://www.techiediaries.com/**"],
+      "cacheConfig": {
+        "maxAge": "1h",
+        "strategy": "freshness",
+        "timeout": "5s",
+        "maxSize": 20
       }
     }
   ]
