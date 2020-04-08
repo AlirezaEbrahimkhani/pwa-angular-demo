@@ -29,13 +29,13 @@
   ],
   "dataGroups": [
     {
-      "name": "apis",
-      "urls": ["https://www.techiediaries.com/**"],
+      "name": "cacheUrl",
+      "urls": ["https://www.techiediaries.com/api/data.json"],
       "cacheConfig": {
-        "maxAge": "1h",
-        "strategy": "freshness",
-        "timeout": "5s",
-        "maxSize": 20
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "10s"
       }
     }
   ]
